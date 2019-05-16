@@ -1,5 +1,7 @@
 ## React Movie app
 
+---
+
 ### `Tech stack`
 
 - bootstrap
