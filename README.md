@@ -1,6 +1,4 @@
-React Movie app
-
-In the project directory, you can run:
+## React Movie app
 
 ### `Tech stack`
 
