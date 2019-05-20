@@ -1,4 +1,4 @@
-## React Movie app
+## iMovies
 
 ---
 
