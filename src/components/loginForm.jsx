@@ -32,7 +32,7 @@ class LoginForm extends Component {
           />
           <Input
             name="password"
-            value={account.username}
+            value={account.password}
             label="Password"
             onChange={this.handleChange}
           />
