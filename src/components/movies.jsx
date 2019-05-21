@@ -7,7 +7,7 @@ import { getMovies, deleteMovie } from "../services/fakeMovieService";
 import { getGenres } from "../services/fakeGenreService";
 import { paginate } from "../utils/paginate";
 import _ from "lodash";
-// import SearchBox from "./searchBox";
+import SearchBox from "./searchBox";
 
 class Movies extends Component {
   state = {
@@ -108,7 +108,7 @@ class Movies extends Component {
             New Movie
           </Link>
           <p>Showing {totalCount} movies in the database.</p>
-          {/* <SearchBox value={searchQuery} onChange={this.handleSearch} /> */}
+          <SearchBox value={searchQuery} onChange={this.handleSearch} />
           <MoviesTable
             movies={movies}
             sortColumn={sortColumn}
