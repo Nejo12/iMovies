@@ -22,7 +22,10 @@ class LoginForm extends Form {
     // call the server...
     try {
       const { data } = this.state;
-      await login(data.username, data.password);
+      const { data: jwt } = await login(data.username, data.password);
+      // console.log(jwt);
+      localStorage.setItem("token", jwt);
+      this.props.history.push("/");
     } catch (ex) {
       if (ex.response && ex.response.status === 400) {
         const errors = { ...this.state.errors };
