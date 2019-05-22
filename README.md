@@ -30,7 +30,7 @@ Run
 npm start
 ```
 
-View and enjoy the functionality :cool: .
+View and enjoy the functionality :wink: .
 
 ### `Running the app`
 
