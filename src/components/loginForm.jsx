@@ -18,7 +18,7 @@ class LoginForm extends Form {
   };
 
   doSubmit = () => {
-    // call the server
+    // call the server...
     console.log("Submitted");
   };
 
